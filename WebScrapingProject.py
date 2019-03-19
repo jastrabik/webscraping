@@ -1,11 +1,6 @@
-import pandas as pd
 import requests
-import seaborn as sns
 import urllib.request
-import numpy as np
 from urllib.request import urlopen
-import matplotlib.pyplot as plt
-import csv
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(html,'lxml')
 type(soup)
@@ -14,6 +9,7 @@ type(soup)
 
 pages = []
 i = []
+
 for i in range(1, 48):
     
     #MRG
